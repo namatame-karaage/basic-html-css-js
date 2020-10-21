@@ -1,0 +1,18 @@
+// Stylesheet: 425px以下(スマホの横向き)のモニタで適用
+
+.header{
+  &__top {
+    padding: 10px 14px;
+    &-title {
+      font-size: 15px;
+      width: 56%;
+    }
+  }
+  &__ul {
+    display: none;
+  }
+
+}
+
+
+

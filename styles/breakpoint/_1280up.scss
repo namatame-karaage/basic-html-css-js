@@ -1,0 +1,57 @@
+// Stylesheet: 1280px以上のモニタで適用
+.business {
+
+  &__text{
+    margin: 0 210px;
+  }
+}
+.img-container {
+  &__text{
+    top: 20%;
+    font-size: 1.4em;
+  }
+  &__country{
+    top: 33%;
+    font-size: .9em;
+  }
+
+  &__img-one{
+    height: 340px;
+  }
+  &__img-left,
+  &__img-right{
+    height: 200px;
+  }
+
+  &__yasai,
+  &__pasta{
+    top: 61%;
+  }
+}
+.recruit{
+  &__scroll {
+    height: 270px;
+    &::after{
+      height: 270px;
+    }
+  }
+  &__title{
+    left: 45%;
+    font-size: 30px;
+  }
+  &__sub-title{
+    left: 40%;
+    font-size: 25px;
+
+  }
+  &__text-box{
+    text-align: center;
+    font-size: 18px;
+    padding: 50px 100px;
+  }
+  &__btn{
+    margin-top: 30px;
+  }
+}
+
+

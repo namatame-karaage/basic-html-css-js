@@ -1,0 +1,23 @@
+@import 'breakpoint/base';
+@import 'modules/mixin';
+@import 'modules/swiper';
+@import 'modules/scroll';
+
+@media (max-width: 425px) {
+  @import 'breakpoint/425down';
+}
+@media (min-width: 768px) {
+  @import 'breakpoint/768up';
+}
+@media (min-width: 1024px) {
+  @import 'breakpoint/1024up';
+}
+@media (min-width: 1280px) {
+  @import 'breakpoint/1280up';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

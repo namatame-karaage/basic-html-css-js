@@ -1,0 +1,53 @@
+@mixin container-img(
+  $postion: absolute,
+  $top:50%,
+  $left:50%,
+  $font-size: 10px,
+  $color: white,
+  $font-weight: 600,
+  $text-align: center,
+  $text-shadow: 0 0 15px rgb(14, 14, 14),
+  $transform: translate(-50%,-50%)
+  ){
+  position: $postion;
+  top: $top;
+  left: $left;
+  font-size: $font-size;
+  color: $color;
+  font-weight: $font-weight;
+  text-shadow: $text-shadow;
+  text-align: $text-align;
+  transform: $transform;
+}
+
+@mixin recruit-position (
+  $position: absolute,
+  $top: 40%,
+  $left: 50%,
+  $transform: translate(-50%,-50%),
+  $z-index: 10,
+  $letter-spacing: 3px,
+){
+  position: $position;
+  top: $top;
+  left: $left;
+  transform: t$transform;
+  z-index: $z-index;
+  letter-spacing: $letter-spacing;
+}
+
+@mixin animation (
+  $name,
+  $duration: 1s,
+  $timing-function: ease,
+  $delay: 0s,
+  $iteration-count: 1,
+  $direction: normal
+) {
+  name: $name;
+  duration: $duration;
+  timing-function: $timing-function;
+  delay: $delay;
+  iteration-count: $iteration-count;
+  direction: $direction;
+}

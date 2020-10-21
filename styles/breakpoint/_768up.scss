@@ -1,0 +1,88 @@
+// Stylesheet: 768px以上のタブレットやモニタで適用
+.header{
+
+  &__ul {
+    display: none;
+  }
+}
+.main {
+  &__img {
+    height: 350px;
+  }
+}
+.section-news {
+  &__inner {
+    margin: 0 50px;
+  }
+  &__news {
+    margin-right: 50px;
+  }
+
+  &__text {
+    width: 100%;
+    margin-top: 3px;
+  }
+}
+.business {
+  &__box{
+    margin: 30px 50px;
+  }
+  &__text{
+    margin: 0 77px;
+  }
+
+}
+
+.img-container {
+  &__inner {
+    font-size: 1.3em;
+  }
+  &__img-one{
+    height: 170px;
+  }
+  &__yasai,
+  &__pasta,
+  &__meat,
+  &__fish{
+    font-size: .8em;
+  }
+  &__yasai,
+  &__pasta{
+    top: 54%;
+  }
+}
+
+.business-field{
+  &__title{
+    &::after{
+      width: 26%;
+    }
+  }
+}
+
+.recruit{
+  &__title{
+    left: 45%;
+  }
+  &__sub-title{
+    left: 38%;
+  }
+  &__text-box{
+    text-align: center;
+    font-size: 13px;
+    padding: 0 100px;
+  }
+}
+
+.footer{
+  &__inner{
+    display: flex;
+  }
+  &__container{
+    width: 70%;
+    padding: 0 40px;
+  }
+  &__topicks{
+    display: block;
+  }
+}

@@ -1,0 +1,123 @@
+// Stylesheet: 1024px以上のモニタで適用
+
+.header {
+
+  &-title {
+    &::before {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+}
+.main {
+  &__img {
+    width: 70%;
+    height: 550px;
+    border-radius: 10% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 200px;
+
+    &.postion{
+      background-position: bottom;
+    }
+  }
+}
+.section-news {
+  &__inner {
+    margin: 0 140px;
+  }
+  &__news {
+    margin-right: 50px;
+  }
+
+  &__text {
+    margin-top: 3px;
+  }
+}
+
+.business{
+  &__img{
+    height: 400px;
+  }
+  &__box{
+    margin: 30px 40px;
+  }
+  &__subtitle{
+    font-size: 20px;
+  }
+  &__title{
+    font-size: 30px;
+  }
+  &__text{
+    font-size: 18px;
+  }
+}
+.img-container {
+  &__inner {
+    font-size: 1.7em;
+  }
+  &__img-one{
+    height: 240px;
+  }
+  &__yasai,
+  &__pasta,
+  &__meat,
+  &__fish{
+    font-size: .9em;
+  }
+  &__yasai,
+  &__pasta{
+    top: 58%;
+  }
+}
+
+.business-field{
+  &__title{
+    font-size: 30px;
+    &::after{
+      width: 26%;
+    }
+  }
+  &__card{
+    width: 16%;
+  }
+  &__text{
+    font-size: 15.5px;
+  }
+}
+
+.recruit{
+  &__scroll {
+    height: 220px;
+    &::after{
+      height: 220px;
+    }
+  }
+  &__title{
+    left: 47%;
+  }
+  &__sub-title{
+    left: 42%;
+  }
+  &__text-box{
+    text-align: center;
+    font-size: 18px;
+    padding: 50px 100px;
+  }
+}
+
+.footer{
+  &__inner{
+    font-size: 15px;
+    display: flex;
+  }
+  &__container{
+    width: 70%;
+    padding: 0 40px;
+  }
+  &__topicks{
+    display: block;
+  }
+}
